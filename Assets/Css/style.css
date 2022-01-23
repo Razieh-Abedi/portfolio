@@ -1,4 +1,44 @@
+/* reset css */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+/* aside bar */
 aside img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
+  border: 7px solid #343a40;
+}
+aside {
+  background: #000000;
+}
+#social-media a:hover {
+  background-color: #00bfff;
+}
+#social-media a {
+  background: #343a40;
+  transition: background-color 1.5s;
+}
+nav li a:hover {
+  color: white !important;
+}
+
+nav li a {
+  color: #a8a9b4;
+  transition: color 1.3s;
+  font-size: 13pt;
+}
+nav li a:hover i {
+  color: #00bfff;
+  transition: color 1.3s;
+}
+/* main bar */
+#intro {
+  background-image: url("../Media/Images/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
 }
