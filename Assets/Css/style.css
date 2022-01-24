@@ -12,7 +12,7 @@ aside img {
   border: 7px solid #343a40;
 }
 aside {
-  background: #000000;
+  background: #040b14;
 }
 #social-media a:hover {
   background-color: #00bfff;
@@ -41,4 +41,15 @@ nav li a:hover i {
   background-repeat: no-repeat;
   background-position: center;
   height: 800px;
+}
+main {
+  margin-left: 25%;
+}
+#about-title span {
+  top: -15px;
+  left: 440px;
+  z-index: 10;
+}
+#about-title > h2 {
+  z-index: 100 !important;
 }
