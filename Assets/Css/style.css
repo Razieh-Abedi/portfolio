@@ -45,11 +45,28 @@ nav li a:hover i {
 main {
   margin-left: 25%;
 }
-#about-title span {
+/* about section */
+#about-title > h2 > span {
   top: -15px;
   left: 440px;
-  z-index: 10;
+  z-index: 1 !important;
 }
 #about-title > h2 {
   z-index: 100 !important;
+}
+/* progress bars */
+#HTML {
+  width: 85%;
+}
+#CSS {
+  width: 75%;
+}
+#JavaScript {
+  width: 10%;
+}
+.progress {
+  height: 13px;
+}
+.skill {
+  font-size: 10pt;
 }
