@@ -1,17 +1,26 @@
 /* media querries */
 /* width */
+main {
+  width: 100%;
+  margin-left: 0;
+  font-family: sans-serif;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   main {
-    width: 100%;
+    /* width: 100%;
+    margin-left: 0%; */
+    background-color: grey;
   }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   main {
-    width: 100%;
+    /* width: 100%;
+    margin-left: 0%; */
+    background-color: hotpink;
   }
 }
 
@@ -19,59 +28,29 @@
 @media (min-width: 992px) {
   main {
     width: 75%;
+    margin-left: 25%;
+    background-color: purple;
   }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   main {
-    width: 75%;
+    /* width: 75%;
+    margin-left: 25%; */
+    background-color: green;
   }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
   main {
-    width: 75%;
-  }
-}
-/* // X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  #about-title .shadow-title {
-    left: 125px;
+    /* width: 75%;
+    margin-left: 25%; */
+    background-color: khaki;
   }
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  #about-title .shadow-title {
-    left: 120px;
-  }
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  #about-title .shadow-title {
-    left: 205px;
-  }
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  #about-title .shadow-title {
-    left: 285px;
-  }
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-  #about-title .shadow-title {
-    left: 370px;
-  }
-}
 /* reset css */
 * {
   box-sizing: border-box;
@@ -116,16 +95,14 @@ nav li a:hover i {
   background-position: center;
   height: 800px;
 }
-main {
-  margin-left: 25%;
+
+#about-title h2 {
+  text-shadow: -10px -10px #dbd5d5;
+  font-weight: 650;
+  font-size: 20pt;
 }
-/* about section */
-#about-title .shadow-title {
-  left: 50px;
-  bottom: 0%;
-  z-index: -1;
-  font-size: 40pt;
-  color: #c0c0c0;
+.about-icon {
+  line-height: 0;
 }
 /* progress bars */
 #HTML {
@@ -142,4 +119,8 @@ main {
 }
 .skill {
   font-size: 10pt;
+}
+/* stepper */
+.stepper-icon {
+  left: -10px;
 }

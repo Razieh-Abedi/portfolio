@@ -19,7 +19,7 @@
   </head>
   <body class="font-family-sans-serif">
     <div id="body-div">
-      <!-- <aside
+      <!--<aside
         class="w-25 min-vh-100 text-white p-5 position-fixed top-0 start-0 overflow-auto"
       >
         <div class="text-center">
@@ -82,8 +82,9 @@
             </li>
           </ul>
         </nav>
-      </aside> -->
-      <main class="w-75">
+      </aside>
+      -->
+      <main>
         <section
           id="intro"
           class="text-white fst-italic d-flex flex-column justify-content-center align-items-center"
@@ -94,16 +95,13 @@
 
         <section id="about" class="p-4">
           <div id="about-title" class="text-center pt-4">
-            <h2 class="position-relative">
-              <span class="fs-1 fw-bolder"> ABOUT ME</span>
-              <span class="shadow-title position-absolute"> ABOUT ME </span>
-            </h2>
+            <h2>ABOUT ME</h2>
             <p class="p-2">What do I do? And What's in it for you?</p>
           </div>
 
           <div class="container pt-3">
             <div class="row">
-              <div class="col">
+              <div class="col-12 m-2 col-sm-6 m-sm-0">
                 <p>
                   <i class="icon-angle-right text-warning"></i
                   ><span class="fw-bold">Name:</span> Razieh Abedi
@@ -121,7 +119,7 @@
                   ><span class="fw-bold">City:</span> Kedah, Malaysia
                 </p>
               </div>
-              <div class="col">
+              <div class="col-12 m-2 col-sm-6 m-sm-0">
                 <p>
                   <i class="icon-angle-right text-warning"></i
                   ><span class="fw-bold">Age:</span> 38
@@ -141,18 +139,24 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
-                <h2><i class="icon-smile-o text-success pe-1"></i>100</h2>
-
+              <div class="col-12 col-md-6 m-md-0 m-2">
+                <h2 class="d-flex align-items-center">
+                  <i
+                    class="about-icon icon-smile-o text-success d-inline-block pe-1"
+                  ></i>
+                  <span class="d-inline-block">100</span>
+                </h2>
                 <p>
                   <span class="fw-bold">Happy clients </span>Lorem ipsum dolor
                   sit amet, consectetur adipisicing elit. Non amet, maiores eius
                 </p>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-6 m-md-0 m-2">
                 <h2 class="d-flex align-items-center">
-                  <i class="icon-projection-screen text-primary pe-1"></i>
-                  <span>100</span>
+                  <i
+                    class="about-icon d-inline-block icon-projection-screen text-primary pe-1"
+                  ></i>
+                  <span class="d-inline-block">100</span>
                 </h2>
                 <p>
                   <span class="fw-bold">Projects </span>Lorem ipsum dolor sit
@@ -161,17 +165,24 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
-                <h2><i class="icon-clock-o text-info pe-1"></i>10</h2>
+              <div class="col-12 col-md-6 m-md-0 m-2">
+                <h2 class="d-flex align-items-center">
+                  <i
+                    class="about-icon d-inline-block icon-clock-o text-info pe-1"
+                  ></i>
+                  <span class="d-inline-block">10</span>
+                </h2>
                 <p>
                   <span class="fw-bold">Years of experience</span>Lorem ipsum
                   dolor sit amet consectetur adipisicing elit. Cum culpa unde
                 </p>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-6 m-md-0 m-2">
                 <h2 class="d-flex align-items-center">
-                  <i class="icon-star text-warning pe-1 d-inline-block"></i>
-                  <span>10</span>
+                  <i
+                    class="about-icon d-inline-block icon-star text-warning pe-1 d-inline-block"
+                  ></i>
+                  <span class="d-inline-block">10</span>
                 </h2>
                 <p>
                   <span class="fw-bold">Awards</span>Lorem ipsum dolor sit amet
@@ -183,7 +194,7 @@
           <!--progree bar-->
           <div id="skills" class="p-3">
             <div id="skill-html" class="mt-2">
-              <span class="skill fw-bold mb-3">HTML</span>
+              <span class="skill fw-bold mb-1 d-inline-block">HTML</span>
               <div class="progress">
                 <div
                   id="HTML"
@@ -198,7 +209,7 @@
               </div>
             </div>
             <div id="skill-CSS" class="mt-2">
-              <span class="skill fw-bold">CSS</span>
+              <span class="skill fw-bold mb-1 d-inline-block">CSS</span>
               <div class="progress">
                 <div
                   id="CSS"
@@ -213,7 +224,7 @@
               </div>
             </div>
             <div id="skill-JS" class="mt-2">
-              <span class="skill fw-bold">JavaScript</span>
+              <span class="skill fw-bold mb-1 d-inline-block">JavaScript</span>
               <div class="progress">
                 <div
                   id="JavaScript"
@@ -229,6 +240,75 @@
             </div>
           </div>
           <!--progress bar-->
+        </section>
+        <section id="resume">
+          <div id="resume-title" class="text-center mb-2">
+            <h2>
+              <span>MY RESUME</span>
+              <span>MY RESUME</span>
+            </h2>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          </div>
+          <div class="container p-5">
+            <div class="row">
+              <div class="col-12 m-1 col-lg-6 m-lg-0 p-3">
+                <h3>Summary</h3>
+                <div id="summary" class="border-start border-2 border-secondary ps-3 position-relative">
+                  <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute bg-light"></span>
+                  <h5>ALICE BARKLEY</h5>
+                  <p>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</p>
+                  <ul>
+                    <li>Portland par 127,Orlando, FL</li>
+                    <li>(123) 456-7891</li>
+                    <li>alice.barkley@example.com</li>
+                  </ul>
+                </div>
+                <div id="education">
+                  <h3 class="pt-4">Education</h3>
+                  <div id="edu-1" class="border-start border-2 border-secondary ps-3 position-relative">
+                    <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute  bg-light"></span>
+                    <h5>MASTER OF FINE ARTS & GRAPHIC DESIGN</h5>
+                    <span>2015 - 2016</span>
+                    <p>Rochester Institute of Technology, Rochester, NY</p>
+                    <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                  </div>
+                  <div id="edu-2" class="border-start border-2 border-secondary ps-3 position-relative">
+                    <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute  bg-light"></span>
+                    <h5>BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h5>
+                    <span>2010 - 2014</span>
+                    <p>Rochester Institute of Technology, Rochester, NY</p>
+                    <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 m-1 col-lg-6 m-lg-0 p-3">
+                <h3 class="pt-2">Professional Experience</h3>
+                <div id="prof-1" class="border-start border-2 border-secondary ps-3 position-relative">
+                  <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute  bg-light"></span>
+                  <h5>SENIOR GRAPHIC DESIGN SPECIALIST</h5>
+                  <span>2019 - Present</span>
+                  <p>Experion, New York, NY</p>
+                  <ul>
+                    <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
+                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                  </ul>
+                </div>
+                <div id="prof-2" class="border-start border-2 border-secondary ps-3 position-relative">
+                  <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute  bg-light"></span>
+                  <h5>GRAPHIC DESIGN SPECIALIST</h5>
+                  <span>2017 - 2018</span>     
+                  <p>Stepping Stone Advertising, New York, NY</p>
+                 <ul>
+                   <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                   <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                   <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                   <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                 </ul>
+                </div>
+              </div>
+            </div>
         </section>
       </main>
     </div>
