@@ -1,3 +1,4 @@
+@import url("../Fonts/Raleway/static/Raleway-Regular.ttf");
 /* media querries */
 /* width */
 main {
@@ -5,51 +6,82 @@ main {
   margin-left: 0;
   font-family: sans-serif;
 }
+/* bg title */
 
-/* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .bg-title {
+    position: absolute;
+    top: -70%;
+  }
+}
+@media (min-width: 768px) {
+  .bg-title {
+    position: absolute;
+    top: -70%;
+    left: 36%;
+  }
+}
+@media (min-width: 992px) {
+  .bg-title {
+    position: absolute;
+    top: -60%;
+    left: 35%;
+}
+@media (min-width: 1200px) {
+  .bg-title {
+    position: absolute;
+    top: -60%;
+    left: 37%;
+  }
+}
+@media (min-width: 1400px) {
+  .title {
+    position: relative;
+  }
+}
+@media (min-width: 1400px) {
+  .bg-title {
+    position: absolute;
+    top: -60%;
+    left: 39%;
+  }
+}
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {
   main {
-    /* width: 100%;
-    margin-left: 0%; */
     background-color: grey;
   }
-}
+} */
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   main {
-    /* width: 100%;
-    margin-left: 0%; */
     background-color: hotpink;
   }
-}
+} */
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   main {
     width: 75%;
     margin-left: 25%;
-    background-color: purple;
+    /* background-color: purple; */
   }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   main {
-    /* width: 75%;
-    margin-left: 25%; */
     background-color: green;
   }
-}
+} */
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
   main {
-    /* width: 75%;
-    margin-left: 25%; */
     background-color: khaki;
   }
-}
+} */
 
 /* reset css */
 * {
@@ -123,4 +155,23 @@ nav li a:hover i {
 /* stepper */
 .stepper-icon {
   left: -10px;
+}
+#resume {
+  font-family: Raleway-Regular;
+}
+.year {
+  background: #eef0f2;
+  padding: 5px 15px;
+  font-weight: 600;
+}
+.title {
+  position: relative;
+}
+.bg-title {
+  position: absolute;
+  z-index: -1;
+  top: -70%;
+  left: 27%;
+  font-size: 30pt;
+  color: #eef0f2;
 }
