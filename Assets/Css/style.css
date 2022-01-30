@@ -1,95 +1,18 @@
-@import url("../Fonts/Raleway/static/Raleway-Regular.ttf");
-/* media querries */
-/* width */
-main {
-  width: 100%;
-  margin-left: 0;
-  font-family: sans-serif;
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("../Fonts/Raleway/static/Raleway-Regular.ttf");
 }
-/* bg title */
-
-@media (min-width: 576px) {
-  .bg-title {
-    position: absolute;
-    top: -70%;
-  }
-}
-@media (min-width: 768px) {
-  .bg-title {
-    position: absolute;
-    top: -70%;
-    left: 36%;
-  }
-}
-@media (min-width: 992px) {
-  .bg-title {
-    position: absolute;
-    top: -60%;
-    left: 35%;
-}
-@media (min-width: 1200px) {
-  .bg-title {
-    position: absolute;
-    top: -60%;
-    left: 37%;
-  }
-}
-@media (min-width: 1400px) {
-  .title {
-    position: relative;
-  }
-}
-@media (min-width: 1400px) {
-  .bg-title {
-    position: absolute;
-    top: -60%;
-    left: 39%;
-  }
-}
-/* // Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) {
-  main {
-    background-color: grey;
-  }
-} */
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {
-  main {
-    background-color: hotpink;
-  }
-} */
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  main {
-    width: 75%;
-    margin-left: 25%;
-    /* background-color: purple; */
-  }
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {
-  main {
-    background-color: green;
-  }
-} */
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-/* @media (min-width: 1400px) {
-  main {
-    background-color: khaki;
-  }
-} */
 
 /* reset css */
 * {
   box-sizing: border-box;
+  font-family: Raleway-Regular;
+  color: #444444;
 }
 body {
   margin: 0;
 }
+
 /* aside bar */
 aside img {
   width: 150px;
@@ -120,6 +43,12 @@ nav li a:hover i {
   transition: color 1.3s;
 }
 /* main bar */
+/* main section */
+main {
+  width: 100%;
+  margin-left: 0;
+}
+/* intro section */
 #intro {
   background-image: url("../Media/Images/bg-img.jpg");
   background-size: cover;
@@ -127,12 +56,12 @@ nav li a:hover i {
   background-position: center;
   height: 800px;
 }
-
-#about-title h2 {
-  text-shadow: -10px -10px #dbd5d5;
-  font-weight: 650;
-  font-size: 20pt;
+#intro h1,
+#intro p {
+  color: #e5e0da;
+  font-family: cursive;
 }
+/* about section */
 .about-icon {
   line-height: 0;
 }
@@ -152,26 +81,112 @@ nav li a:hover i {
 .skill {
   font-size: 10pt;
 }
+/* resume section */
 /* stepper */
 .stepper-icon {
   left: -10px;
 }
-#resume {
-  font-family: Raleway-Regular;
-}
+
 .year {
   background: #eef0f2;
   padding: 5px 15px;
   font-weight: 600;
 }
-.title {
-  position: relative;
-}
 .bg-title {
-  position: absolute;
   z-index: -1;
   top: -70%;
-  left: 27%;
+  left: 20%;
   font-size: 30pt;
+  /* color: red; */
+  font-weight: 900;
+  text-shadow: 2px 2px 8px #807d7d;
   color: #eef0f2;
+}
+.front-title {
+  font-weight: 900;
+}
+/* services section */
+.service-icon {
+  font-size: 30pt;
+  color: #ffb727;
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: #fff4df;
+  margin: 30px auto 10px auto;
+  padding-top: 14px;
+}
+.card {
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  /* transition: all 0.3s ease-in-out; */
+}
+
+/* bg color responsive for my convenience */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  main {
+    background-color: grey;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  main {
+    background-color: hotpink;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  main {
+    background-color: purple;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  main {
+    background-color: green;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  main {
+    background-color: white;
+  }
+}
+/*///////////// main media queries////////////// */
+@media (min-width: 576px) {
+  .bg-title {
+    left: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-title {
+    left: 36%;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-title {
+    top: -60%;
+    left: 35%;
+  }
+  main {
+    width: 75%;
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-title {
+    left: 37%;
+  }
+}
+@media (min-width: 1400px) {
+  .bg-title {
+    left: 39%;
+  }
 }

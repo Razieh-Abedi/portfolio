@@ -11,9 +11,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+<!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet"> -->
+
     <link rel="stylesheet" href="Assets/Css/style.css" />
     <link
       href="https://file.myfontastic.com/xsCgvLnxkVhpFyggExZG26/icons.css"
@@ -70,12 +72,12 @@
             </li>
             <li class="pt-2 mt-1">
               <a href="" class="text-decoration-none text-secondary"
-                ><i class="icon-folder-open me-2"></i>Portfolio</a
+                ><i class="icon-list-alt me-2"></i>Services</a
               >
             </li>
             <li class="pt-2 mt-1">
               <a href="" class="text-decoration-none text-secondary"
-                ><i class="icon-list-alt me-2"></i>Services</a
+                ><i class="icon-folder-open me-2"></i>Portfolio</a
               >
             </li>
             <li class="pt-2 mt-1">
@@ -90,19 +92,22 @@
       <main>
         <section
           id="intro"
-          class="text-white fst-italic d-flex flex-column justify-content-center align-items-center"
+          class="fst-italic d-flex flex-column justify-content-center align-items-center"
         >
           <h1 class="fs-1 fw-bolder pt-5">Razieh Abedi</h1>
           <p class="fs-2">I'm a web developer</p>
         </section>
 
-        <section id="about" class="p-4">
-          <div id="about-title" class="text-center pt-4">
-            <h2>ABOUT ME</h2>
-            <p class="p-2">What do I do? And What's in it for you?</p>
+        <section id="about" class="pt-3">
+          <div id="about-title" class="text-center m-5">
+            <h2 class="main-title position-relative">
+              <span class="bg-title position-absolute">ABOUT ME</span>
+              <span class="front-title">ABOUT ME</span>
+            </h2>
+            <p class="mb-0">What do I do? And What's in it for you?</p>
           </div>
 
-          <div class="container pt-3">
+          <div class="container ps-5 pe-5 pt-2 pb-2">
             <div class="row">
               <div class="col-12 m-2 col-sm-6 m-sm-0">
                 <p>
@@ -147,7 +152,7 @@
                   <i
                     class="about-icon icon-smile-o text-success d-inline-block pe-1"
                   ></i>
-                  <span class="d-inline-block">100</span>
+                  <span class="d-inline-block fw-bold">100</span>
                 </h2>
                 <p>
                   <span class="fw-bold">Happy clients </span>Lorem ipsum dolor
@@ -159,7 +164,7 @@
                   <i
                     class="about-icon d-inline-block icon-projection-screen text-primary pe-1"
                   ></i>
-                  <span class="d-inline-block">100</span>
+                  <span class="d-inline-block fw-bold">100</span>
                 </h2>
                 <p>
                   <span class="fw-bold">Projects </span>Lorem ipsum dolor sit
@@ -173,7 +178,7 @@
                   <i
                     class="about-icon d-inline-block icon-clock-o text-info pe-1"
                   ></i>
-                  <span class="d-inline-block">10</span>
+                  <span class="d-inline-block fw-bold">10</span>
                 </h2>
                 <p>
                   <span class="fw-bold">Years of experience</span>Lorem ipsum
@@ -185,7 +190,7 @@
                   <i
                     class="about-icon d-inline-block icon-star text-warning pe-1 d-inline-block"
                   ></i>
-                  <span class="d-inline-block">10</span>
+                  <span class="d-inline-block fw-bold">10</span>
                 </h2>
                 <p>
                   <span class="fw-bold">Awards</span>Lorem ipsum dolor sit amet
@@ -195,7 +200,7 @@
             </div>
           </div>
           <!--progree bar-->
-          <div id="skills" class="p-3">
+          <div id="skills" class="ps-5 pe-5 pt-2 pb-2">
             <div id="skill-html" class="mt-2">
               <span class="skill fw-bold mb-1 d-inline-block">HTML</span>
               <div class="progress">
@@ -244,21 +249,22 @@
           </div>
           <!--progress bar-->
         </section>
-        <section id="resume">
-          <div id="resume-title" class="text-center">
-            <h2 class="title fw-bolder">
-              <span class="bg-title ">MY RESUME</span>
+        <section id="resume" class="pt-3">
+          <div id="resume-title" class="text-center m-5">
+            <h2 class="main-title position-relative">
+              <span class="bg-title position-absolute">MY RESUME</span>
               <span class="front-title">MY RESUME</span>
             </h2>
             <p class="mb-0">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
           </div>
+
           <div class="container ps-5 pe-5 pt-2 pb-2">
             <div class="row">
               <div class="col-12 m-1 col-lg-6 m-lg-0  ps-3 pe-3 pt-0 pb-0">
-                <h3 class="fw-bold">Summary</h3>
-                <div id="summary" class="border-start border-2 border-secondary ps-3 position-relative">
+                <h3 class="fw-bold mb-2">Summary</h3>
+                <div id="summary" class="mb-1 border-start border-2 border-secondary ps-3 position-relative">
                   <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute bg-light"></span>
-                  <h6 class="text-warning fw-bold">ALICE BARKLEY</h6>
+                  <h6 class="mb-1 text-warning fw-bold">ALICE BARKLEY</h6>
                   <p class="fst-italic">Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</p>
                   <ul>
                     <li>Portland par 127,Orlando, FL</li>
@@ -267,17 +273,17 @@
                   </ul>
                 </div>
                 <div id="education">
-                  <h3 class="pt-2 fw-bold">Education</h3>
+                  <h3 class="pt-2 fw-bold mb-2">Education</h3>
                   <div id="edu-1" class="border-start border-2 border-secondary ps-3 position-relative">
                     <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute  bg-light"></span>
-                    <h6 class="text-warning fw-bold">MASTER OF FINE ARTS & GRAPHIC DESIGN</h6>
+                    <h6 class="mb-2 text-warning fw-bold">MASTER OF FINE ARTS & GRAPHIC DESIGN</h6>
                     <span class="year d-inline-block mb-1">2015 - 2016</span>
                     <p class="fst-italic">Rochester Institute of Technology, Rochester, NY</p>
                     <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
                   </div>
                   <div id="edu-2" class="border-start border-2 border-secondary ps-3 position-relative">
                     <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute  bg-light"></span>
-                    <h6 class="text-warning fw-bold">BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h6>
+                    <h6 class="mb-2 text-warning fw-bold">BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h6>
                     <span class="year d-inline-block mb-1">2010 - 2014</span>
                     <p class="fst-italic">Rochester Institute of Technology, Rochester, NY</p>
                     <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
@@ -285,10 +291,10 @@
                 </div>
               </div>
               <div class="col-12 m-1 col-lg-6 m-lg-0 ps-3 pe-3 pt-0 pb-0">
-                <h3 class="pt-2 fw-bold">Professional Experience</h3>
+                <h3 class="mb-2 pt-2 fw-bold">Professional Experience</h3>
                 <div id="prof-1" class="border-start border-2 border-secondary ps-3 position-relative">
                   <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute  bg-light"></span>
-                  <h6 class="text-warning fw-bold">SENIOR GRAPHIC DESIGN SPECIALIST</h6>
+                  <h6 class="mb-2 text-warning fw-bold">SENIOR GRAPHIC DESIGN SPECIALIST</h6>
                   <span class="year d-inline-block mb-1">2019 - Present</span>
                   <p class="fst-italic">Experion, New York, NY</p>
                   <ul>
@@ -300,7 +306,7 @@
                 </div>
                 <div id="prof-2" class="border-start border-2 border-secondary ps-3 position-relative">
                   <span class="stepper-icon border border-secondary border-2 rounded-circle p-2 text-center position-absolute  bg-light"></span>
-                  <h6 class="text-warning fw-bold">GRAPHIC DESIGN SPECIALIST</h6>
+                  <h6 class="mb-2 text-warning fw-bold">GRAPHIC DESIGN SPECIALIST</h6>
                   <span class="year d-inline-block mb-1">2017 - 2018</span>     
                   <p class="fst-italic">Stepping Stone Advertising, New York, NY</p>
                  <ul>
@@ -312,6 +318,55 @@
                 </div>
               </div>
             </div>
+        </section>
+        <section id="services" class="pt-3">
+          <div id="services-title" class="text-center m-5">
+            <h2 class="main-title position-relative">
+              <span class="bg-title position-absolute">MY SERVICES</span>
+              <span class="front-title">MY SERVICES</span>
+            </h2>
+            <p class="mb-0">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          </div>
+          <div class="container mb-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+              <div class="col">
+                <div class="card rounded border border-1 border-white text-center">
+                    <i class="service-icon icon-dribbble rounded-circle"></i>                 
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Card title</h5>
+                    <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded border border-1 border-white text-center">
+                 <i class="service-icon icon-file-text-o rounded-circle"></i>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Lorem Ipsum</h5>
+                    <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded border border-1 border-white text-center">
+                  <i class="service-icon icon-tachometer rounded-circle"></i>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Card title</h5>
+                    <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded border border-1 border-white text-center">
+                  <i class="service-icon icon-globe rounded-circle"></i>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Card title</h5>
+                    <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
     </div>
