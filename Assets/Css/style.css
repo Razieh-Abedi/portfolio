@@ -110,15 +110,40 @@ main {
   font-size: 30pt;
   color: #ffb727;
   display: inline-block;
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   background: #fff4df;
   margin: 30px auto 10px auto;
-  padding-top: 14px;
+  padding-top: 12px;
 }
 .card {
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   /* transition: all 0.3s ease-in-out; */
+}
+#services .card:hover {
+  border-color: #ffb727;
+}
+#services .card:hover a {
+  color: #ffb727;
+}
+/* slider section */
+.slider-profile {
+  width: 130px;
+  height: 130px;
+  border: 6px solid #565151;
+}
+#slider p,
+#slider h5 {
+  color: #fff;
+}
+.slider-bg {
+  height: 400px;
+}
+.carousel-indicators button {
+  background: #ffb727 !important;
+  width: 5px !important;
+  height: 5px !important;
+  padding: 3px !important;
 }
 
 /* bg color responsive for my convenience */
