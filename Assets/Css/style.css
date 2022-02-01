@@ -116,16 +116,28 @@ main {
   margin: 30px auto 10px auto;
   padding-top: 12px;
 }
-.card {
+.service-card {
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  /* transition: all 0.3s ease-in-out; */
+  transition: box-shadow 1s;
 }
-#services .card:hover {
+.service-card:hover {
+  /* border-color: 1px solid #ffb727; */
+  box-shadow: 0 0 0 1px #ffb727;
+}
+.service-card .card-body > h5 > a {
+  color: black;
+  transition: color 1s;
+}
+
+.service-card:hover .card-body > h5 > a {
+  color: #ffb727 !important;
+}
+/* #services .card:hover {
   border-color: #ffb727;
 }
 #services .card:hover a {
   color: #ffb727;
-}
+} */
 /* slider section */
 .slider-profile {
   width: 130px;
@@ -140,47 +152,66 @@ main {
   height: 400px;
 }
 .carousel-indicators button {
-  background: #ffb727 !important;
-  width: 5px !important;
-  height: 5px !important;
-  padding: 3px !important;
+  /* background: #ffb727 !important; */
+  width: 12px !important;
+  height: 12px !important;
 }
-
+/* portfolio section */
+#portfolio img {
+  z-index: -1;
+  /* overflow: hidden; */
+}
+.card-body i {
+  font-size: 10pt;
+}
+/* #portfolio .card {
+  height: auto !important;
+} */
+.card-body {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+.card-body a {
+  width: 50%;
+  background-color: royalblue;
+  color: white;
+}
 /* bg color responsive for my convenience */
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   main {
     background-color: grey;
   }
-}
+} */
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   main {
     background-color: hotpink;
   }
-}
+} */
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   main {
     background-color: purple;
   }
-}
+} */
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   main {
     background-color: green;
   }
-}
+} */
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
   main {
     background-color: white;
   }
-}
+} */
 /*///////////// main media queries////////////// */
 @media (min-width: 576px) {
   .bg-title {
