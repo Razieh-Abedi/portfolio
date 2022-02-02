@@ -118,7 +118,7 @@ main {
 }
 .service-card {
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: box-shadow 1s;
+  transition: box-shadow 1.5s;
 }
 .service-card:hover {
   /* border-color: 1px solid #ffb727; */
@@ -167,12 +167,12 @@ main {
 /* #portfolio .card {
   height: auto !important;
 } */
-.card-body {
+#portfolio .card .card-body {
   opacity: 1;
   display: flex;
   justify-content: center;
 }
-.card-body a {
+#portfolio .card .card-body a {
   width: 50%;
   background-color: royalblue;
   color: white;
