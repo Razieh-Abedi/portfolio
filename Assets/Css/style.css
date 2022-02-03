@@ -22,8 +22,12 @@ aside img {
 aside {
   background: #040b14;
 }
+aside h2,
+aside nav li i {
+  color: #e5e0da !important;
+}
 #social-media a:hover {
-  background-color: #00bfff;
+  background-color: #ae3ccc;
 }
 #social-media a {
   background: #343a40;
@@ -36,10 +40,10 @@ nav li a:hover {
 nav li a {
   color: #a8a9b4;
   transition: color 1.3s;
-  font-size: 13pt;
+  font-size: 14pt;
 }
 nav li a:hover i {
-  color: #00bfff;
+  color: #ae3ccc !important;
   transition: color 1.3s;
 }
 /* main bar */
@@ -54,7 +58,8 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
+  height: 500px;
+  box-shadow: 0 0 6px 3px #360d3f;
 }
 #intro h1,
 #intro p {
@@ -65,15 +70,33 @@ main {
 .about-icon {
   line-height: 0;
 }
+.icon-angle-right {
+  color: #ff1493;
+}
+.icon-smile-o {
+  color: #4cf31e;
+}
+.icon-projection-screen {
+  color: #f31e4c;
+}
+.icon-clock-o {
+  color: #995c00;
+}
+.icon-star {
+  color: #ffff00;
+}
 /* progress bars */
 #HTML {
-  width: 85%;
+  width: 95%;
+  background-color: #ff1493;
 }
 #CSS {
-  width: 75%;
+  width: 85%;
+  background-color: #4cf31e;
 }
 #JavaScript {
   width: 10%;
+  background-color: #999966;
 }
 .progress {
   height: 13px;
@@ -82,6 +105,9 @@ main {
   font-size: 10pt;
 }
 /* resume section */
+#resume h6 {
+  color: #ae3ccc;
+}
 /* stepper */
 .stepper-icon {
   left: -10px;
@@ -108,76 +134,69 @@ main {
 /* services section */
 .service-icon {
   font-size: 30pt;
-  color: #ffb727;
+  color: #ae3ccc;
   display: inline-block;
   width: 70px;
   height: 70px;
-  background: #fff4df;
+  background: #e6e6fa;
   margin: 30px auto 10px auto;
   padding-top: 12px;
 }
 .service-card {
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: box-shadow 1.5s;
+  transition: border-color 1.5s ease-in-out;
 }
 .service-card:hover {
-  /* border-color: 1px solid #ffb727; */
-  box-shadow: 0 0 0 1px #ffb727;
+  border-color: #ae3ccc !important;
 }
 .service-card .card-body > h5 > a {
   color: black;
   transition: color 1s;
 }
-
 .service-card:hover .card-body > h5 > a {
-  color: #ffb727 !important;
+  color: #ae3ccc !important;
 }
-/* #services .card:hover {
-  border-color: #ffb727;
-}
-#services .card:hover a {
-  color: #ffb727;
-} */
+
 /* slider section */
-.slider-profile {
+#slider .carousel-item {
+  height: 500px;
+}
+#slider .carousel-caption {
+  bottom: 6.25rem;
+}
+#slider .slider-profile {
   width: 130px;
   height: 130px;
   border: 6px solid #565151;
 }
 #slider p,
 #slider h5 {
-  color: #fff;
+  color: #e5e0da;
 }
-.slider-bg {
-  height: 400px;
+#slider .carousel-indicators {
+  bottom: 2.25rem;
 }
-.carousel-indicators button {
-  /* background: #ffb727 !important; */
+#slider .carousel-indicators button {
   width: 12px !important;
   height: 12px !important;
 }
-/* portfolio section */
-#portfolio img {
-  z-index: -1;
-  /* overflow: hidden; */
-}
-.card-body i {
-  font-size: 10pt;
-}
-/* #portfolio .card {
-  height: auto !important;
+/*********** portfolio section *****************/
+/* .img-card {
+  height: 300px;
 } */
-#portfolio .card .card-body {
-  opacity: 1;
-  display: flex;
-  justify-content: center;
-}
-#portfolio .card .card-body a {
-  width: 50%;
-  background-color: royalblue;
-  color: white;
-}
-/* bg color responsive for my convenience */
+/* .caption-img:hover {
+  display: block !important;
+} */
+/* #portfolio .caption-img a {
+  background-color: #e6e6fa !important;
+  opacity: 25%;
+} */
+/* #portfolio .caption-img a:hover {
+  background-color: #ae3ccc !important;
+  opacity: 1 !important;
+} */
+
+/********** bg color responsive for my convenience ****************/
 /* // Small devices (landscape phones, 576px and up) */
 /* @media (min-width: 576px) {
   main {
@@ -231,8 +250,8 @@ main {
     left: 35%;
   }
   main {
-    width: 75%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 20%;
   }
 }
 
