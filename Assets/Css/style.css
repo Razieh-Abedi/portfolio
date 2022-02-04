@@ -181,20 +181,52 @@ main {
   height: 12px !important;
 }
 /*********** portfolio section *****************/
-/* .img-card {
-  height: 300px;
+.img-card {
+  height: 400px;
+  overflow: hidden;
+}
+
+.img-card img {
+  transform: scale(1);
+  transition: transform 2s;
+}
+.img-card img:hover {
+  transform: scale(1.3);
+}
+
+.caption-img {
+  height: 15%;
+  /* display: none !important; */
+}
+/* .caption-img:hover  {
+  display: flex !important;
 } */
-/* .caption-img:hover {
-  display: block !important;
-} */
-/* #portfolio .caption-img a {
-  background-color: #e6e6fa !important;
-  opacity: 25%;
-} */
-/* #portfolio .caption-img a:hover {
-  background-color: #ae3ccc !important;
-  opacity: 1 !important;
-} */
+.caption-img a {
+  opacity: 0.7;
+  background-color: #ae3ccc;
+  transition: opacity 1.3s;
+  /* display: none; */
+}
+.caption-img a:hover {
+  opacity: 1;
+  /* display: inline-block !important; */
+}
+.caption-img a i {
+  font-size: 17pt;
+  font-weight: bolder;
+}
+.nav-item {
+  border: none;
+}
+.nav-link {
+  border: none;
+  transition: all 1.2s;
+}
+.nav-link:hover {
+  color: #ae3ccc !important;
+  font-weight: bold;
+  border-color: #ae3ccc !important;
+}
 
 /********** bg color responsive for my convenience ****************/
 /* // Small devices (landscape phones, 576px and up) */
