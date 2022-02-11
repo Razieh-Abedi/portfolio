@@ -229,11 +229,56 @@ main {
   transition: all 1.2s;
 }
 .nav-link:hover {
-  color: #ae3ccc !important;
+  color: #757575 !important;
   font-weight: bold;
-  border-color: #ae3ccc !important;
+  border-color: #757575 !important;
+}
+.advanced-new {
+  width: 275px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 16px;
+  padding: 15px 9px 13px 35px;
+  background: #ff1493;
 }
 
+/* contact me section */
+#contact #left-contact i {
+  font-size: 17pt;
+  color: #ae3ccc;
+  padding: 9px;
+  width: 45px;
+  height: 45px;
+  background: #e6e6fa;
+}
+#contact #left-contact p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 450px;
+  height: 350px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+#left-contact,
+#right-contact {
+  box-shadow: 0px 0px 5px 7px #743f7217;
+}
+#left-contact {
+  width: 40%;
+}
+#right-contact {
+  width: 50%;
+}
 /********** bg color responsive for my convenience ****************/
 /* // Small devices (landscape phones, 576px and up) */
 /* @media (min-width: 576px) {
