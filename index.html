@@ -26,7 +26,7 @@
   </head>
   <body class="font-family-sans-serif">
     <div id="body-div">
-      <!-- <aside
+      <aside
         class="w-20 min-vh-100 p-5 position-fixed top-0 start-0 overflow-auto"
       >
         <div class="text-center">
@@ -58,39 +58,39 @@
         <nav class="pt-5">
           <ul class="list-unstyled">
             <li class="pt-2 mt-1">
-              <a href="" class="text-decoration-none"
+              <a href="#intro" class="text-decoration-none"
                 ><i class="icon-home me-2"></i> Home</a
               >
             </li>
             <li class="pt-2 mt-1">
-              <a href="" class="text-decoration-none"
+              <a href="#about" class="text-decoration-none"
                 ><i class="icon-user me-2"></i>About</a
               >
             </li>
             <li class="pt-2 mt-1">
-              <a class="text-decoration-none" href=""
+              <a class="text-decoration-none" href="#resume"
                 ><i class="icon-file-text-o me-2"></i>Resume</a
               >
             </li>
             <li class="pt-2 mt-1">
-              <a href="" class="text-decoration-none"
+              <a href="#services" class="text-decoration-none"
                 ><i class="icon-list-alt me-2"></i>Services</a
               >
             </li>
             <li class="pt-2 mt-1">
-              <a href="" class="text-decoration-none"
+              <a href="#portfolio" class="text-decoration-none"
                 ><i class="icon-folder-open me-2"></i>Portfolio</a
               >
             </li>
             <li class="pt-2 mt-1">
-              <a href="" class="text-decoration-none"
+              <a href="#contact" class="text-decoration-none"
                 ><i class="icon-envelope me-2"></i>Contact</a
               >
             </li>
           </ul>
         </nav>
         <p class="mt-5">&copy; 2022. All rights reserved</p>
-      </aside> -->
+      </aside>
      
       <main>
         <section
@@ -446,7 +446,7 @@
             </button>
           </div>
         </section>
-        <section id="portfolio pt-3">    
+        <section id="portfolio" class="pt-3">    
             <div id="portfolio-title" class="text-center m-5">
               <h2 class="main-title position-relative">
                 <span class="bg-title position-absolute">MY PORTFOLOIO</span>
@@ -669,24 +669,24 @@
           </div>
           <div class="d-flex justify-content-around">
             <div id="left-contact" class="p-3 rounded">
-              <div id="email" class="d-flex mb-2">
+              <div id="email" class="d-flex mb-1">
                 <i class="icon-envelope rounded-circle text-center me-2"></i>
                 <div>
-                  <h5 class="fw-bold">Email:</h5>
+                  <h6 class="fw-bold">Email:</h6>
                   <p>info@example.com</p>
                 </div>
               </div>
-              <div id="call" class="d-flex mb-2">
+              <div id="call" class="d-flex mb-1">
                 <i class="icon-phone rounded-circle text-center me-2"></i>
                 <div>
-                  <h5 class="fw-bold">Call:</h5>
+                  <h6 class="fw-bold">Call:</h6>
                   <p>+1 5589 55488 55</p>
                 </div>             
               </div>
-              <div id="address" class="d-flex mb-2">
+              <div id="address" class="d-flex mb-1">
                 <i class="icon-location rounded-circle text-center me-2"></i>
                 <div>
-                  <h5 class="fw-bold">Location:</h5>
+                  <h6 class="fw-bold">Location:</h6>
                   <p>A108 Adam Street, New York, NY 535022</p>
                 </div>             
               </div>
@@ -699,17 +699,48 @@
               </div>           
         </div>
         <div id="right-contact" class="p-3 rounded">
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-            </div>
+          <div class="container">
+            <form action="" class="row g-3 needs-validation" novalidate>
+              <div class="col-md-6 form-floating">
+                <input type="text" class="form-control" id="floatingInput-name" placeholder="Razi Abedi" required>
+                <label for="floatingInput-name">Your Name</label>
+                <div class="invalid-feedback">
+                </div>
+              </div>
+              <div class="col-md-6 form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                <label for="floatingInput">Your Email address</label>
+                <div class="invalid-feedback">
+                </div>
+              </div>
+              <div class="col-12 form-floating">
+                <input type="text" class="form-control" id="floatingInput-subject" placeholder="Subject" required>
+                <label for="floatingInput-subject">Subject</label>
+                <div class="invalid-feedback">
+                </div>
+              </div>
+              <div class="col-12 form-floating">
+                <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Message</label>
+                <div class="invalid-feedback">
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn text-white m-auto w-25 d-block" type="submit">Send Message</button>
+              </div>
+            </form>
           </div>
         </div>
+          </div>   
+        </section>
+        <section id="arrow">
+          <div>
+            <a href="#top" class=" text-decoration-none  rounded-circle d-flex align-items-center justify-content-center " >
+              <i class="icon-arrow-up fw-bold"></i>
+            </a>
           </div>
-          
+        
+            
         </section>
       </main>
     </div>
@@ -718,5 +749,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="Assets/J.S/App.js"></script>
   </body>
 </html>

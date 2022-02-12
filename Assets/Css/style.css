@@ -247,22 +247,24 @@ main {
 
 /* contact me section */
 #contact #left-contact i {
-  font-size: 17pt;
+  font-size: 15pt;
   color: #ae3ccc;
   padding: 9px;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   background: #e6e6fa;
 }
-#contact #left-contact p {
-  font-family: Arial, Helvetica, sans-serif;
+#left-contact p,
+#right-contact label {
+  color: #757575;
+  font: 12pt sans-serif;
 }
 
 .mapouter {
   position: relative;
   text-align: right;
   width: 450px;
-  height: 350px;
+  height: 300px;
 }
 
 .gmap_canvas {
@@ -278,6 +280,29 @@ main {
 }
 #right-contact {
   width: 50%;
+}
+#floatingTextarea {
+  height: 200px;
+}
+#right-contact .btn {
+  background: #ae3ccc;
+}
+/* arrow */
+#arrow {
+  height: 150px;
+}
+#arrow div a {
+  background: #e6e6fa;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+}
+#arrow div a i {
+  font-size: 15pt;
+  color: #ae3ccc;
 }
 /********** bg color responsive for my convenience ****************/
 /* // Small devices (landscape phones, 576px and up) */
