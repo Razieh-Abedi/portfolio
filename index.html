@@ -26,7 +26,7 @@
   </head>
   <body class="font-family-sans-serif">
     <div id="body-div">
-      <aside
+      <!-- <aside
         class="w-20 min-vh-100 p-5 position-fixed top-0 start-0 overflow-auto"
       >
         <div class="text-center">
@@ -90,7 +90,7 @@
           </ul>
         </nav>
         <p class="mt-5">&copy; 2022. All rights reserved</p>
-      </aside>
+      </aside> -->
      
       <main>
         <section
@@ -667,71 +667,78 @@
             </h2>
             <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
           </div>
-          <div class="d-flex justify-content-around">
-            <div id="left-contact" class="p-3 rounded">
-              <div id="email" class="d-flex mb-1">
-                <i class="icon-envelope rounded-circle text-center me-2"></i>
-                <div>
-                  <h6 class="fw-bold">Email:</h6>
-                  <p>info@example.com</p>
-                </div>
-              </div>
-              <div id="call" class="d-flex mb-1">
-                <i class="icon-phone rounded-circle text-center me-2"></i>
-                <div>
-                  <h6 class="fw-bold">Call:</h6>
-                  <p>+1 5589 55488 55</p>
-                </div>             
-              </div>
-              <div id="address" class="d-flex mb-1">
-                <i class="icon-location rounded-circle text-center me-2"></i>
-                <div>
-                  <h6 class="fw-bold">Location:</h6>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>             
-              </div>
-              <div class="mapouter">
-                <div class="gmap_canvas w-100 h-100">
-                  <iframe  id="gmap_canvas" class="w-100 h-100" src="https://maps.google.com/maps?q=langkawi%20temoyong&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                  <a href="https://www.whatismyip-address.com"></a>
-                  <a href="https://www.embedgooglemap.net">make google map responsive</a>
-                </div>
-              </div>           
-        </div>
-        <div id="right-contact" class="p-3 rounded">
           <div class="container">
-            <form action="" class="row g-3 needs-validation" novalidate>
-              <div class="col-md-6 form-floating">
-                <input type="text" class="form-control" id="floatingInput-name" placeholder="Razi Abedi" required>
-                <label for="floatingInput-name">Your Name</label>
-                <div class="invalid-feedback">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <div id="left-contact" class="p-3 rounded h-100">
+                  <div id="email" class="d-flex mb-1">
+                    <i class="icon-envelope rounded-circle text-center me-2"></i>
+                    <div>
+                      <h6 class="fw-bold">Email:</h6>
+                      <p>info@example.com</p>
+                    </div>
+                  </div>
+                  <div id="call" class="d-flex mb-1">
+                    <i class="icon-phone rounded-circle text-center me-2"></i>
+                    <div>
+                      <h6 class="fw-bold">Call:</h6>
+                      <p>+1 5589 55488 55</p>
+                    </div>             
+                  </div>
+                  <div id="address" class="d-flex mb-1">
+                    <i class="icon-location rounded-circle text-center me-2"></i>
+                    <div>
+                      <h6 class="fw-bold">Location:</h6>
+                      <p>NO11, Jalan Bohor Tempoyak, Mukim kedawang, 07000 Langkawi, Kedah</p>
+                    </div>             
+                  </div>
+                  <div class="mapouter w-100">
+                    <div class="gmap_canvas w-100 h-100">
+                      <iframe class="w-100 h-100" id="gmap_canvas" src="https://maps.google.com/maps?q=6.2979386547937475,%2099.73063139578123&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                      </iframe>
+                      <a href="https://123movies-to.org">123movies</a>
+                      <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                      </div>
+                    </div>
+            </div>
+              </div>
+              <div class="col-12 col-lg-7">
+                <div id="right-contact" class="p-3 rounded h-100">
+                  <div class="container">
+                    <form action="" class="row g-3 needs-validation" novalidate>
+                      <div class="col-md-6 form-floating">
+                        <input type="text" class="form-control" id="floatingInput-name" placeholder="Razi Abedi" required>
+                        <label for="floatingInput-name">Your Name</label>
+                        <div class="invalid-feedback">
+                        </div>
+                      </div>
+                      <div class="col-md-6 form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                        <label for="floatingInput">Your Email address</label>
+                        <div class="invalid-feedback">
+                        </div>
+                      </div>
+                      <div class="col-12 form-floating">
+                        <input type="text" class="form-control" id="floatingInput-subject" placeholder="Subject" required>
+                        <label for="floatingInput-subject">Subject</label>
+                        <div class="invalid-feedback">
+                        </div>
+                      </div>
+                      <div class="col-12 form-floating">
+                        <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" required></textarea>
+                        <label for="floatingTextarea">Message</label>
+                        <div class="invalid-feedback">
+                        </div>
+                      </div>
+                      <div class="col-12 text-center">
+                        <button class="btn text-white" type="submit">Send Message</button>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-6 form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                <label for="floatingInput">Your Email address</label>
-                <div class="invalid-feedback">
-                </div>
-              </div>
-              <div class="col-12 form-floating">
-                <input type="text" class="form-control" id="floatingInput-subject" placeholder="Subject" required>
-                <label for="floatingInput-subject">Subject</label>
-                <div class="invalid-feedback">
-                </div>
-              </div>
-              <div class="col-12 form-floating">
-                <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea"></textarea>
-                <label for="floatingTextarea">Message</label>
-                <div class="invalid-feedback">
-                </div>
-              </div>
-              <div class="col-12">
-                <button class="btn text-white m-auto w-25 d-block" type="submit">Send Message</button>
-              </div>
-            </form>
+            </div>
           </div>
-        </div>
-          </div>   
         </section>
         <section id="arrow">
           <div>

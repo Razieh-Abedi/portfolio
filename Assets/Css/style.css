@@ -263,10 +263,7 @@ main {
 .mapouter {
   position: relative;
   text-align: right;
-  width: 450px;
-  height: 300px;
 }
-
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
@@ -275,12 +272,7 @@ main {
 #right-contact {
   box-shadow: 0px 0px 5px 7px #743f7217;
 }
-#left-contact {
-  width: 40%;
-}
-#right-contact {
-  width: 50%;
-}
+
 #floatingTextarea {
   height: 200px;
 }
@@ -289,7 +281,7 @@ main {
 }
 /* arrow */
 #arrow {
-  height: 150px;
+  height: 80px;
 }
 #arrow div a {
   background: #e6e6fa;
@@ -348,7 +340,7 @@ main {
 
 @media (min-width: 768px) {
   .bg-title {
-    left: 36%;
+    left: 35%;
   }
 }
 
@@ -365,11 +357,11 @@ main {
 
 @media (min-width: 1200px) {
   .bg-title {
-    left: 37%;
+    left: 38%;
   }
 }
 @media (min-width: 1400px) {
   .bg-title {
-    left: 39%;
+    left: 40%;
   }
 }
