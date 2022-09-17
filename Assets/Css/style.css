@@ -20,7 +20,12 @@ aside img {
   border: 7px solid #343a40;
 }
 aside {
-  background: #040b14;
+  /* display: none; */
+  /* margin-left: -350px; */
+  width: 320px!important;
+  z-index: 100;
+  background: #040b14!important;
+  transition: margin 1s ;
 }
 aside h2,
 aside nav li i,
@@ -345,6 +350,11 @@ main {
 }
 
 @media (min-width: 992px) {
+  aside{
+   /* margin-left: 0; */
+   visibility: visible!important;
+   transform: none!important;
+  }
   .bg-title {
     top: -60%;
     left: 35%;

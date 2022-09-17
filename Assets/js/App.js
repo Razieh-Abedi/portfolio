@@ -18,3 +18,15 @@
         }, false)
       })
   })()
+
+  // document.querySelector('.menu-btn').addEventListener("click",()=>{
+  
+  //   if (document.querySelector("aside").style.marginLeft=="0px") {
+  //     document.querySelector("aside").style.marginLeft="-300px"
+  //   } else {
+  //     document.querySelector("aside").style.marginLeft="0px"
+  //   }
+      
+  // })
+
+  // document.
